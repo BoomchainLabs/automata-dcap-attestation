@@ -43,7 +43,7 @@ async-trait = "0.1"
 # RISC0 specific dependencies (feature-gated)
 risc0-ethereum-contracts = { git = "https://github.com/risc0/risc0-ethereum", tag = "v3.0.0", optional = true }
 risc0-zkvm = { version = "^3.0.3", optional = true }
-boundless-market = { version = "^1.0", optional = true }
+boundless-market = { version = "~1.0", optional = true }
 
 # SP1 specific dependencies (feature-gated)
 sp1-sdk = { version = "^5.2.0", optional = true }
